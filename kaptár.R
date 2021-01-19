@@ -1,5 +1,6 @@
-kaptár=dir("méhészet")
-kaptár1=read.csv(paste("méhészet",kaptár[1],sep="/"),encoding="latin1")
+kaptár=dir("meheszet")
+kaptár[1]
+kaptár1=read.csv(paste("meheszet",kaptár[1],sep="/"),encoding="latin1")
 head(kaptár1)
 ?read.csv
 library(xts)
